@@ -1,7 +1,7 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
     box-sizing: border-box;
 }
 
@@ -10,122 +10,158 @@ body {
     padding: 0;
 }
 /* Classes header-nav */
-.header {
-    min-height: 743px;
+
+/* header { */
+    /* position: relative;
+    width: 100%;
+    height: 70px;
+    background-image: url("../img/header.png");
+    background: rgb(8,9,19);
+    display: flex; */
+/* } */
+
+/* Probable borrar */
+/* .header { */
+    /* min-height: 743px;
     height: auto;
     width: 100%;
-    background-image: url("../img/header.png");
     background-size: cover;
     object-fit: cover;
     object-position: bottom;
     max-width: 100%;
     position: relative;
-}
+    padding: 40px; */
+/* } */
 
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 45px;
+/* nav {
+    justify-content: space-around;
+    padding-top: 20px;
     padding-left: 8%;
     padding-right: 8%;
+    background-color: #ffffff;
+    margin-bottom: 18px;
 }
 
-.logo {
-    color: rgb(0, 0, 0);
-    font-size: 45px;
+/* .checkbtn { */
+    /* font-size: 30px;
+    color: #000000;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none; */
+/* } */
+/* #check{ */
+    /* display: none; */
+/* } */
+
+
+/* .logo { */
+    /* color: rgb(0, 0, 0); */
+    /* font-size: 45px;
     letter-spacing: 1px;
     cursor: pointer;
     text-shadow: 1px 1px 2px white;
-}
+} */ */
 
-.span-lo {
+
+/* nuevo codigo */
+/* .navbar-brand {
     color: #C700A9;
-}
+    font-family: 'Tektur', sans-serif;
+    font-size: 50px;
+    position: relative;
+    left: 34px;
+} */
 
-.span-go {
-    color: #C700A9;
-}
+/* nav ul { */ */
+    /* float: right;
+    margin-right: 20px;
+    margin-top: -46px; */
+/* }
 
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
+
+/* nav ul li { */
+    /* list-style-type: none;
     padding: 10px 25px;
-}
+    float: right;
+    margin-right: 20px; */
+/* } */
 
-nav ul li a {
-    color: rgb(0, 0, 0);
+/* nav ul li a { */
+    /* color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
     text-shadow: 1px 1px 2px white;
-    font-size: 26px;
-}
+    font-size: 26px; */
+/* } */
 
-nav ul li a:hover {
+/* nav ul li a:hover { */
     color: #C700A9;
     transition: .4s;
-}
+/* } */
 
-.content {
-    font-family: 'Tektur', sans-serif;
+/* content { */
+    /* font-family: 'Tektur', sans-serif;
     position: absolute;
     top: 50%;
     left: 34%;
     transform: translate(-50%, -50%);
-}
+    padding: 40px; */
+/* } */
 
-h1 {
+/* h1 {
     margin: 20px 0px 20px;
     font-size: 75px;
     color: #C700A9;
     text-shadow: 1px 1px 2px white;
-}
+} */
 
-h4 {
+/* h4 {
     font-size: 40px;
     text-align: center;
-}
+} */
 
 /* classes seccion about me */
-.about {
+/* .about {
     width: 100%;
     padding: 5% 5%;
     background-color: #FDFCE9;
     height: 450px;
-}
+} */
 
-.about img {
+/* .about img {
     position: relative;
     height: auto;
     max-width: 100%;
-}
+} */
 
-.about-text {
-    width: 550px;
-    font-family: 'Montserrat', sans-serif;
-}
-.main {
+/* .about-text { */
+    /* width: 550px; */
+    /* font-family: 'Montserrat', sans-serif; */
+/* } */
+/* .main {
     width: 100%;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-}
+} */
 
-.about-text p {
-    color: black;
+/* .about-text p { */
+    /* color: black;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom:45px;
     text-align: justify;
-}   
+}    */
 
 /* Classes seccion Education */
-.education {
+/* .education {
     background-color: #FFEE12;
     height: 60vh;
 }
@@ -158,10 +194,10 @@ h4 {
 .education-flex h3 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
 /* Classes seccion experience */
-.experience-cont {
+/* .experience-cont {
     display: flex;
     width: 100%;
     padding: 5% 5%;
@@ -207,11 +243,11 @@ h4 {
     font-size: 18px;
     margin-bottom: 20px;
     text-align: justify;
-}
+} */
 
 /* Classes seccion portafolio */
 
-.contenedor-port {
+/* .contenedor-port {
     width: 100%;
     background-color: #FFEE12;
 }
@@ -256,13 +292,13 @@ h4 {
     color: white;
     text-shadow: 1px 1px 2px black;
     background-color: #fbfbfa;
-}
+} */
 
 /* Seccion footer */
-.footer {
+/* .footer {
     position: relative;
     width: 100%;
     background-color: #C700A9;
     padding: 20px;
-}
+} */
 
